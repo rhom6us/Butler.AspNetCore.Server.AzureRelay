@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{009998B1-3D30-4CE7-9A7C-1A9B52D91AAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D4304314-0854-4C58-BC74-F52010081BE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Butler.AspNetCore.Server.AzureRelay", "src\Butler.AspNetCore.Server.AzureRelay\Butler.AspNetCore.Server.AzureRelay.csproj", "{18291586-1729-4A6D-9D4C-30DA32FE28AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Butler.AspNetCore.Server.AzureRelay.Sample", "src\Butler.AspNetCore.Server.AzureRelay.Sample\Butler.AspNetCore.Server.AzureRelay.Sample.csproj", "{4B63A5E8-C3EB-45BF-949F-775F54255862}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18291586-1729-4A6D-9D4C-30DA32FE28AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18291586-1729-4A6D-9D4C-30DA32FE28AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18291586-1729-4A6D-9D4C-30DA32FE28AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18291586-1729-4A6D-9D4C-30DA32FE28AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B63A5E8-C3EB-45BF-949F-775F54255862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B63A5E8-C3EB-45BF-949F-775F54255862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B63A5E8-C3EB-45BF-949F-775F54255862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B63A5E8-C3EB-45BF-949F-775F54255862}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18291586-1729-4A6D-9D4C-30DA32FE28AB} = {D4304314-0854-4C58-BC74-F52010081BE0}
+		{4B63A5E8-C3EB-45BF-949F-775F54255862} = {D4304314-0854-4C58-BC74-F52010081BE0}
+	EndGlobalSection
+EndGlobal
